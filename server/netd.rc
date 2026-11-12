@@ -10,7 +10,7 @@ service netd1shot /system/bin/netd oneshot
     updatable
     # these two only apply to 'netd1shot'
     oneshot
-    reboot_on_failure reboot,netd1shot-fail
+    # reboot_on_failure reboot,netd1shot-fail
 
 # Keep in sync with 'netd1shot' above.
 service netd /system/bin/netd
